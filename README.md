@@ -12,6 +12,11 @@ control any of your RustDesk machines from a browser, with nothing to install.
 > endorsed by the RustDesk team. It speaks RustDesk's protocol to the open-source
 > `rustdesk-server` (hbbs/hbbr).
 
+<p align="center">
+  <img alt="Ferry's connect screen on a desktop browser, with saved remotes" src="docs/screenshots/connect-desktop.jpg" width="62%">
+  <img alt="The same screen on a phone" src="docs/screenshots/connect-phone.jpg" width="26%">
+</p>
+
 **What works**
 
 - Screen (H.264 and H.265 where the browser decodes them and the remote has a hardware
