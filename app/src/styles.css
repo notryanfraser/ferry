@@ -860,7 +860,7 @@ select {
     animation: none;
   }
 }
-.hint {
+footer.hint {
   flex: none;
   display: flex;
   justify-content: space-between;
@@ -872,20 +872,20 @@ select {
   color: var(--chrome-muted);
   font-size: 0.75rem;
 }
-.hint kbd {
+footer.hint kbd {
   padding: 0 0.3rem;
   border: 1px solid var(--chrome-border-strong);
   border-radius: 0.25rem;
   color: var(--chrome-text);
   font: inherit;
 }
-.hint .summary {
+footer.hint .summary {
   flex: none;
   font-variant-numeric: tabular-nums;
 }
 /* The hint is for keyboards. */
 @media (pointer: coarse) {
-  .hint {
+  footer.hint {
     display: none;
   }
 }
